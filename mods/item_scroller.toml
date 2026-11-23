@@ -1,0 +1,37 @@
+id = "item_scroller"
+kind = "mod"
+name = "Item Scroller"
+summary = "Move items with the mouse wheel, sort chests with one key, and refill crafting grids from saved recipes."
+description = """
+Item Scroller gives you shortcuts for moving items between your inventory and an open container in Horizon.
+
+- **Move items with the wheel.** Hover over a stack and scroll up to send one item to the other inventory. Scroll down to pull one back. Hold Shift to move a stack or Ctrl to move all matching stacks.
+- **Move several stacks at once.** Hold Shift and drag across slots with the left mouse button to move each stack. Use the right button to leave one item in each slot.
+- **Sort a chest.** Hover over its slots and press R to merge matching stacks and sort the contents.
+- **Reuse crafting recipes.** Middle-click a crafting result to save its ingredient layout. Hold S to open your 18 recipe slots, then click a saved recipe to refill the grid.
+
+Requires Horizon mod API 0.2 and runs client-side. Controls are rebindable, and the interface supports English and Russian.
+
+Horizon port by **caskh**, based on [Sakura-Ryoko’s Java version](https://github.com/sakura-ryoko/itemscroller/tree/26.3) of [masa’s original Item Scroller](https://github.com/maruohon/itemscroller).
+"""
+authors = ["caskh"]
+owners = ["caskh"]
+owner_ids = [194096617]
+license = "LGPL-3.0-only"
+source = "https://github.com/caskh/item-scroller"
+icon = "icons/item_scroller.png"
+categories = ["management", "storage", "utility"]
+tags = ["inventory", "storage", "sorting", "crafting", "item-transfer", "mouse-wheel", "recipe-memory", "client-side", "quality-of-life"]
+key = "RWR5VyGz8HewUdY5eOVOa0F5QKhlgvHmXqF+Hnk842B/iYtyKYb4BjNc"
+
+[[versions]]
+version = "0.4.4"
+published = "2026-11-23"
+game = "26.3"
+file = "item_scroller-0.4.4.hmod"
+sha256 = "0391a89242c9f51c792d91eb425cd54230ba42245f91ff2892ec5008ed54ed3f"
+signature = """
+untrusted comment: signature from minisign secret key
+RUR5VyGz8HewUVw9iI2Tis3Ci8iYjvla590sFkrblj/lxdtgxnziMt5ZkCC9109F3XlwYHM3Ub6J2Gy120bc68z1/zGBrxVJrw4=
+trusted comment: timestamp:1795414383\tfile:item_scroller.hmod\thashed
+dChNwnLY011EFZ9/CTrERy71wN5NAXTnBaUTqAPqF8q8iE4tPHckzUjt0It0tpz85j6iJdI11Ard95RKgBfBCA=="""
