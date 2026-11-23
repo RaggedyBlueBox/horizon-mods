@@ -1,0 +1,38 @@
+id = "item_scroller"
+kind = "mod"
+name = "Item Scroller"
+summary = "Move items with the mouse wheel, sort chests with one key, and refill crafting grids from saved recipes."
+description = """
+Item Scroller gives you shortcuts for moving items between your inventory and an open container in Horizon.
+
+- **Move items with the wheel.** Hover over a stack and scroll up to send one item to the other inventory. Scroll down to pull one back. Hold Shift to move a stack or Ctrl to move all matching stacks.
+- **Move several stacks at once.** Hold Shift and drag across slots with the left mouse button to move each stack. Use the right button to leave one item in each slot.
+- **Sort a chest.** Hover over its slots and press R to merge matching stacks and sort the contents.
+- **Reuse crafting recipes.** Middle-click a crafting result to save its ingredient layout. Hold S to open your 18 recipe slots, then click a saved recipe to refill the grid.
+
+Requires Horizon mod API 0.2 and runs client-side. Controls are rebindable, and the interface supports English and Russian.
+
+Horizon port by **caskh**, based on [Sakura-Ryoko’s Java version](https://github.com/sakura-ryoko/itemscroller/tree/26.3) of [masa’s original Item Scroller](https://github.com/maruohon/itemscroller).
+"""
+authors = ["caskh"]
+owners = ["caskh"]
+owner_ids = [194096617]
+license = "LGPL-3.0-only"
+source = "https://github.com/caskh/item-scroller"
+icon = "icons/item_scroller.png"
+categories = ["utility", "storage", "management"]
+tags = ["inventory", "storage", "sorting", "crafting", "item-transfer", "mouse-wheel", "recipe-memory", "client-side", "quality-of-life"]
+key = "RWR5VyGz8HewUdY5eOVOa0F5QKhlgvHmXqF+Hnk842B/iYtyKYb4BjNc"
+
+[[versions]]
+version = "0.4.5"
+published = "2026-11-23"
+game = "26.3"
+file = "item_scroller-0.4.5.hmod"
+sha256 = "29ca211767c599e2b97d262201c36e82bb356cda707b662b4d223a08dfbbc2e9"
+signature = """
+untrusted comment: signature from minisign secret key
+RUR5VyGz8HewUcUeEJZNoX4klb2X0/ZSnaKaWjPUc34fwozRGZ8dlkfgVUUzUlBQLfQByf47ra9B2bIY3wH5/+THYraVSMc1IgU=
+trusted comment: timestamp:1795416383\tfile:item_scroller.hmod\thashed
+SsDPVsiXzs4VVY0jDERj/dut+zXtssgondD8hMqMCUzG1JtJoad5YcSFvxqK0ty7ucY0cNCYyKBZtBjejZwoBg=="""
+changelog = "Fixed both recipe-memory bugs in 0.4.5. Scrolling up to craft now leaves saved recipes alone. Saving a slot preserves unresolved recipes and checks that the new file can be read before replacing the old one."
