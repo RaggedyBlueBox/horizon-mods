@@ -9,7 +9,9 @@ This version always targets containers. It has no settings screen. Only Survival
 
 Sandboxed WebAssembly mod: install it on the launcher's Mods page. It runs in the game's sandbox with no compiler needed on your machine, in single-player and on servers.
 
-A Horizon port of [ClickThrough](https://github.com/gbl/ClickThrough) by Giselbaer (Guntram Blohm), MIT licensed."""
+A Horizon port of [ClickThrough](https://github.com/gbl/ClickThrough) by Giselbaer (Guntram Blohm), MIT licensed.
+
+A native build of the same mod is also listed as ClickThrough Native."""
 authors = ["RaggedyBlueBox"]
 owners = ["RaggedyBlueBox"]
 owner_ids = [341280578]
